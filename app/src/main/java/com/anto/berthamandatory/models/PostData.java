@@ -13,7 +13,7 @@ public class PostData  implements Serializable {
 
 
     @Override
-    public String toString() {
+    public String toString() { 
         return "Device: "+ deviceId+" pm25: "+pm25+" pm10: "+pm10+" co2: "+co2
                 +" o3: " + o3 + " pressure: " + pressure + " temp: " + temperature
                 +" humidity: " + humidity + " userID: "+ userID;
